@@ -1,3 +1,7 @@
+#José Romero A00827813
+#Diego Andrés Moreno A01283790
+#Juego Pintado
+
 from turtle import *
 from freegames import vector
 import turtle
