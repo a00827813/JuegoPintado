@@ -50,11 +50,7 @@ def color(color):
 def rectangle(start, end):
     "Draw rectangle from start to end."
     t.up()
-<<<<<<< HEAD
     t.goto(10,20)
-=======
-    t.goto(start, end)
->>>>>>> 08eb471e0491834cd33824da02eff7fcfedfdfb9
     t.down()
     t.forward(90)          
     t.left(90)
@@ -69,22 +65,12 @@ def rectangle(start, end):
 def triangle(start, end):
     "Draw triangle from start to end."
     t.penup() 
-<<<<<<< HEAD
     t.goto(10,20) 
-=======
-    t.goto(x,y) 
->>>>>>> 08eb471e0491834cd33824da02eff7fcfedfdfb9
     t.pendown() 
     for i in range(3): 
         t.forward(100) 
         t.left(120) 
         t.forward(100) 
-<<<<<<< HEAD
-=======
-turtle.onscreenclick(triangle,1) 
-turtle.listen() 
-turtle.done()
->>>>>>> 08eb471e0491834cd33824da02eff7fcfedfdfb9
     pass  # TODO
 
 def tap(x, y):
