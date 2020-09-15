@@ -1,7 +1,3 @@
-#José Romero A00827813
-#Diego Andrés Moreno A01283790
-#Juego Pintado
-
 from turtle import *
 from freegames import vector
 import turtle
@@ -49,10 +45,28 @@ def color(color):
 
 def rectangle(start, end):
     "Draw rectangle from start to end."
+    t.up()
+    t.goto(10,20)
+    t.down()
+    t.forward(90)          
+    t.left(90)
+    t.forward(120)
+    t.left(90)
+    t.forward(90)
+    t.left(90)
+    t.forward(120)
+    t.left(90)
     pass  # TODO
 
 def triangle(start, end):
     "Draw triangle from start to end."
+    t.penup() 
+    t.goto(10,20) 
+    t.pendown() 
+    for i in range(3): 
+        t.forward(100) 
+        t.left(120) 
+        t.forward(100) 
     pass  # TODO
 
 def tap(x, y):
