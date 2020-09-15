@@ -4,6 +4,9 @@
 
 from turtle import *
 from freegames import vector
+import turtle
+
+t = turtle.Turtle() 
 
 def line(start, end):
     "Draw line from start to end."
@@ -26,8 +29,23 @@ def square(start, end):
     end_fill()
 
 def circle(start, end):
-    "Draw circle from start to end."
-    pass  # TODO
+    t.circle(50) 
+
+def color(color):
+    if(color == "black"):
+        t.color("black", "black")
+    elif(color == "red"):
+        t.color("red", "red")
+    elif(color == "white"):
+        t.color("white", "white")
+    elif(color == "green"):
+        t.color("green", "green")
+    elif(color == "blue"):
+        t.color("blue", "blue")
+    else:
+        t.color("black", "black")
+    
+    
 
 def rectangle(start, end):
     "Draw rectangle from start to end."
